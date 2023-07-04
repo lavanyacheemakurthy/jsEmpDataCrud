@@ -1,0 +1,61 @@
+.single-field {
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+
+}
+
+.one-emp {
+    border: 1px solid grey;
+    padding: 10px;
+    margin: 10px;
+}
+
+.one-emp .key-div {
+    flex-basis: 100px;
+}
+
+.one-emp .val-div {
+    flex-basis: 150px;
+}
+
+.user-ops {
+    flex-basis: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.new-field-form {
+    padding: 30px;
+    margin: 20px;
+}
+
+.under-edit {
+    background-color: grey;
+}
+
+.under-edit #under-edit-field {
+    width: 50px;
+    flex-basis: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#tick-icon {
+    padding-top: 10px
+}
+
+.new-field-form {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-ops i {
+    cursor: pointer;
+}
+
+.border-bottom-none {
+    border-bottom: none;
+}
